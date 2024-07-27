@@ -116,7 +116,212 @@
 ```
 ### CSS Code
 ```CSS
+html {}
 
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #FFF8F0;
+    color: #55206D;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 24px;
+    /* max-width: 1440px; */
+}
+
+h1 {
+    color: #190D37;
+    font-family: "League Spartan", sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 50px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #000;
+    font-family: "League Spartan", sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+.bigtext {
+    color: #331E6A;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+#hero-section {
+    display: flex;
+    max-width: 1440px;
+    height: 600px;
+    margin: 0 auto 48px auto;
+}
+
+#hero-text {
+    width: 50%;
+    padding: 32px 20px 32px 50px;
+}
+
+#hero-image-wrapper {
+    width: 50%;
+}
+
+#hero-image {
+    height: 100%;
+}
+
+.smalltext {
+    color: #000;
+    font-family: "Inter", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#hi-and-name {
+    margin-top: 52px;
+
+}
+
+#contact-button {
+    width: 138px;
+    height: 44px;
+    border-radius: 4px;
+    background: #2F2F2F;
+    color: #FFF;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+#pricing-section {
+    max-width: 1060px;
+    margin: 48px auto;
+}
+
+.overtitle {
+    color: #2858FF;
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 18px;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.section-heading {
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.section-subtitle {
+    text-align: center;
+    margin: 8px auto 48px auto;
+    max-width: 700px;
+}
+
+#pricing-boxes {
+    display: flex;
+}
+
+.service {
+    color: #2858FF;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.pricing-card {
+    background-color: #fff;
+    margin: 0 10px;
+    border-radius: 10px;
+    width: 340px;
+    height: 380px;
+    box-shadow: 6px 2px 25px -9px rgba(0, 0, 0, 0.10);
+    padding: 20px;
+    color: #8A8A8A;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    transition: 0.3s;
+}
+
+.pricing-card:hover {
+    transform: scale(1.02);
+}
+
+.price span {
+    color: #000;
+    font-family: Poppins;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.price {
+    display: flex;
+    align-items: center;
+    margin: 8px 0;
+}
+
+.service-description {
+    width: 250px;
+    line-height: 23px;
+}
+
+.service-benefit {
+    display: flex;
+    flex-direction: column;
+    margin: 16px 0;
+    gap: 14px;
+}
+
+#pricing-boxes .pricing-card:nth-child(even) {
+    background-color: #FFD748;
+    color: black 75% !important;
+}
+
+.snd-prcie-btn {
+    background-color: black;
+    color: white;
+}
+
+.service-button {
+    width: 300px;
+    height: 44px;
+    border-radius: 4px;
+    border: 2px solid #2F2F2F;
+    color: #2F2F2F;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.footer {
+    width: 1222px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    background-color: #000;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 500;
+}
 ```
 ### Here's all Images
 <a href="">
