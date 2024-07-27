@@ -1,7 +1,7 @@
 # Create Simple Webpage using HTML & CSS
 
 ### Here's Wireframe of WebPage
-![Second Web Development.png]()
+![Second Web Development.png](https://github.com/KartikZCoding/HTML-CSS-Basics3/blob/6757925a6c281e7d8d5cdfe04b5959ae0bbba873/Website%20from%20Figma.png)
 
 ### HTML Code
 ```HTML
